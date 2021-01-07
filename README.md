@@ -10,6 +10,9 @@ It loops over the default RetroPie Rom directory emulators, finding games matchi
 Then trough Curl querying Google, and splitting the result on images.
 After that it downloads the images one by one until it found an image that has an resultion with a minimum of 180px width.
 
+
+![](example.gif)
+
 ## Setup
 SSH into your RetroPie machine
 

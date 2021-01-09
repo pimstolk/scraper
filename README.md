@@ -1,11 +1,11 @@
-# scrapper
-Simple and very pragmatic Scrapper for RetroPie finding the Game Art straight of Google.
-I've got tired with all the other scrappers out there that needed an login/token/apikey *(for good reasons offcourse)* or what not.
+# Scraper
+Simple and very pragmatic Scraper for RetroPie finding the Game Art straight of Google.
+I've got tired with all the other scrapers out there that needed an login/token/apikey *(for good reasons offcourse)* or what not.
 This is basicly an automation of what i would otherwise manually do.
 
 This script (*and my 4 year old son*) do not care about game metadata all it wants is a box cover image so the player has something visual to choose from.
 
-Not the most elegant scrapper in the world, but it works for me and might needs adjustments for you.
+Not the most elegant scraper in the world, but it works for me and might needs adjustments for you.
 It loops over the default RetroPie Rom directory emulators, finding games matching the known game extentions.
 Then trough Curl querying Google, and splitting the result on images.
 After that it downloads the images one by one until it found an image that has an resultion with a minimum of 180px width.
@@ -23,9 +23,9 @@ Install PHP
     sudo apt-get install php
 
 #### Run
-    git clone git@github.com:pimstolk/scrapper.git
-    cd scrapper
-    php scrapper.php
+    git clone git@github.com:pimstolk/scraper.git
+    cd scraper
+    php scraper.php
 
 
 #### Example output:
